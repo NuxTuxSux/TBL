@@ -2,7 +2,7 @@
     tab←{M←⍵ ⋄ sel←⍳≢M ⋄ msk←0⍴⍨2,⍨≢M ⋄ mi←1 ⋄ x←{(⍎⊃(M←X.M⍪'' '⊢')[X.M[;1]⍳⊂⍺;2])⍵} ⋄ ⎕ns'M' 'sel' 'msk' 'mi' 'x'}
     ∇ init;T
       ⍝⍝⍝⍝⍝     
-      T←tab 2 4⍴'Nunzio' 'Turtulici' 'via s.Biagio' 12 'Gianni' 'Cremonesi' 'via della Cremeria' 34
+      T←tab 2 4⍴'Giacomo' 'Saltelli' 'via Euristarchio' 12 'Gianni' 'Cremonesi' 'via della Cremeria' 34
       T.F←tab 4 3⍴'Nome' 1 1 'Cognome' 1 2 'Indirizzo' 1 3 'Età' 2 4
       T.F.D←tab 2 5⍴'chr' '⊢' '⊢' '0' '''''' 'num' '{⍎⊃⍵}' '⍕⍤⊢¨' '0' '0'
       
@@ -134,5 +134,6 @@
 
     ⍝ - Idea interessante: le tabelle possono avere figli e fratelli
     ⍝ cioè entro dentro il namespace e mi muovo tra le sotto-tabelle
+
 
 :EndNamespace
