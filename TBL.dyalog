@@ -93,8 +93,8 @@
       :EndSelect
     ∇
     ⍝ [NOTES]
-    ⍝ 'fb'⎕wc'FileBox' 'Open Table' 'K:\Users\Nunzio\' ('Event' 'onFileBoxOK' 'fff')
-    ⍝ 'fb'⎕wc'BrowseBox' 'Open Table' ('StartIn' 'K:\Users\Nunzio')('Event' ('onFileBoxOK' 'fff') ('onFileBoxCancel' 'fff'))  
+    ⍝ 'fb'⎕wc'FileBox' 'Open Table' 'path' ('Event' 'onFileBoxOK' 'fff')
+    ⍝ 'fb'⎕wc'BrowseBox' 'Open Table' ('StartIn' 'path')('Event' ('onFileBoxOK' 'fff') ('onFileBoxCancel' 'fff'))  
 
     ⍝ [BUGS]
     ⍝ - "^↑-" con nessun evidenziato crea disagio
@@ -137,3 +137,4 @@
 
 
 :EndNamespace
+
